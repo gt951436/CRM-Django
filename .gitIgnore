@@ -1,0 +1,75 @@
+# Updated for CRM-DJANGO Project
+
+### Windows / OS Specific ###
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+Desktop.ini
+thumbs.db
+
+### IDE - VS Code ###
+.vscode/
+.idea/
+
+### Python ###
+# Virtual Environments 
+venv/
+env/
+ENV/
+bin/
+lib/
+include/
+share/
+pyvenv.cfg
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+.pytest_cache/
+
+### Django ###
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+.env
+
+# Folders for uploaded user files and collected assets
+/media/
+/static/
+# But if you want to keep the folders themselves in git:
+# !/media/.gitkeep
+# !/static/.gitkeep
+
+### Extra ###
+*.bak
+*.swp
